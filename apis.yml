@@ -1,7 +1,16 @@
 aid: arf
 name: Arf
-description: Arf is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Arf is a Switzerland-regulated liquidity and settlement platform for cross-border
+  payments, providing short-term, receivable-backed, revolving working capital to
+  licensed payment institutions and money-transfer operators. Its core product, Arf
+  Liquidity, lets payment companies settle across any corridor 24/7 without prefunding
+  destination accounts, using regulated real-world-asset-backed digital assets and
+  stablecoins (including USDC) for native on-ramp/off-ramp value transfer and real-time
+  treasury management. Arf is a compliance-first, VQF self-regulatory-organization member
+  serving only licensed financial institutions, and partners with Circle, Stellar, and Visa.
+  This profile was surfaced as a 500 Global portfolio company and enriched from Arf's public
+  web presence; Arf does not currently publish a public developer portal or API.
 url: https://raw.githubusercontent.com/api-evangelist/arf/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://arf.one/wp-content/uploads/2024/08/arf.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Payments
+- Cross-Border Payments
+- Settlement
+- Liquidity
+- Stablecoins
+- Fintech
+- Treasury Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,28 @@ maintainers:
 common:
 - type: Website
   url: https://arf.one
+- type: Blog
+  url: https://arf.one/blog/
+- type: BlogRSS
+  url: https://arf.one/blog/feed/
+- type: PrivacyPolicy
+  url: https://arf.one/privacy-policy/
+- type: SignUp
+  url: https://arf.one/credit-line-waitlist/
+- type: Support
+  url: mailto:info@arf.one
+- type: Compliance
+  url: https://arf.one/membership/
+- type: Conformance
+  url: conformance/arf-conformance.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/arf-one
+- type: Twitter
+  url: https://twitter.com/arf_one
+- type: DomainSecurity
+  url: security/arf-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
