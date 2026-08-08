@@ -2,6 +2,13 @@
   "repo": "arf",
   "feeds": [
     {
+      "source": "https://arf.one/feed/",
+      "feed_url": "https://arf.one/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://arf.one",
       "feed_url": "https://arf.one/feed/",
       "title": "",
@@ -16,6 +23,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-08-01T15:49:00Z"
+  "post_count": 12,
+  "fetched": "2026-08-06T14:08:46Z"
 }
